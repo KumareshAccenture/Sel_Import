@@ -15,7 +15,7 @@ public class GoogleDemo {
 	WebDriver driver;
 	String ExpectedResult="selenium - Google Search";
   @Test
-  public void f() {
+  public void method() {
 System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\chromedriver.exe");
 		//driver=new FirefoxDriver();
 driver =new ChromeDriver();
