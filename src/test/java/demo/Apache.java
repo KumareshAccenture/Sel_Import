@@ -22,7 +22,7 @@ public class Apache {
   @AfterTest
   public void afterTest() {
 	  driver.manage().window().maximize();
-	  
+	  driver.close();
   }
 
 }
