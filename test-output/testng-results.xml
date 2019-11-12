@@ -1,17 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16985" started-at="2019-11-12T07:07:13Z" finished-at="2019-11-12T07:07:30Z">
+  <suite name="Default suite" duration-ms="32483" started-at="2019-11-12T09:09:47Z" finished-at="2019-11-12T09:10:19Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16985" started-at="2019-11-12T07:07:13Z" finished-at="2019-11-12T07:07:30Z">
+    <test name="Default test" duration-ms="32483" started-at="2019-11-12T09:09:47Z" finished-at="2019-11-12T09:10:19Z">
       <class name="demo.GoogleDemo">
-        <test-method status="PASS" signature="f()[pri:0, instance:demo.GoogleDemo@4b9e13df]" name="f" duration-ms="16947" started-at="2019-11-12T07:07:13Z" finished-at="2019-11-12T07:07:30Z">
+        <test-method status="PASS" signature="method()[pri:0, instance:demo.GoogleDemo@4501b7af]" name="method" duration-ms="14462" started-at="2019-11-12T09:09:53Z" finished-at="2019-11-12T09:10:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method -->
+      </class> <!-- demo.GoogleDemo -->
+      <class name="demo.Apache">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:demo.Apache@28d25987]" name="beforeTest" is-config="true" duration-ms="6372" started-at="2019-11-12T09:09:47Z" finished-at="2019-11-12T09:09:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="f()[pri:0, instance:demo.Apache@28d25987]" name="f" duration-ms="8382" started-at="2019-11-12T09:10:07Z" finished-at="2019-11-12T09:10:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-      </class> <!-- demo.GoogleDemo -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:demo.Apache@28d25987]" name="afterTest" is-config="true" duration-ms="3224" started-at="2019-11-12T09:10:16Z" finished-at="2019-11-12T09:10:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- demo.Apache -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
