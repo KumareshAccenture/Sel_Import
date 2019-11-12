@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11681" started-at="2019-11-12T06:58:34Z" finished-at="2019-11-12T06:58:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11681" started-at="2019-11-12T06:58:34Z" finished-at="2019-11-12T06:58:46Z">
+      <class name="demo.Apache">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:demo.Apache@59fa1d9b]" name="beforeTest" is-config="true" duration-ms="6943" started-at="2019-11-12T06:58:34Z" finished-at="2019-11-12T06:58:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="f()[pri:0, instance:demo.Apache@59fa1d9b]" name="f" duration-ms="3511" started-at="2019-11-12T06:58:41Z" finished-at="2019-11-12T06:58:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:demo.Apache@59fa1d9b]" name="afterTest" is-config="true" duration-ms="1196" started-at="2019-11-12T06:58:45Z" finished-at="2019-11-12T06:58:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- demo.Apache -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
